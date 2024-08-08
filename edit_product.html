@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Producto</title>
+    <link rel="stylesheet" href="edit_product.css">
+</head>
+<body>
+    <main>
+        <!-- Botón para abrir la ventana emergente -->
+        <button id="editButton">Editar Producto</button>
+
+        <!-- Ventana emergente (modal) -->
+        <div id="editModal" class="modal">
+            <div class="modal-content">
+                <div class="header">
+                    <h2>EDITAR PRODUCTO</h2>
+                    <button class="close-button">&times;</button>
+                </div>
+                <form>
+                    <label for="codigo">CODIGO</label>
+                    <input type="text" id="codigo" name="codigo" value="">
+                    
+                    <label for="nombre">NOMBRE DE PRODUCTO</label>
+                    <input type="text" id="nombre" name="nombre" value="">
+                    
+                    <label for="descripcion">DESCRIPCION</label>
+                    <input type="text" id="descripcion" name="descripcion" value="">
+                    
+                    <label for="cantidad">CANTIDAD</label>
+                    <input type="text" id="cantidad" name="cantidad" value="">
+                    
+                    <label for="precio">PRECIO UNITARIO</label>
+                    <input type="text" id="precio" name="precio" value="">
+                    
+                    <div class="buttons">
+                        <button type="button" class="cancel">CANCELAR</button>
+                        <button type="submit" class="save">GUARDAR</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="edit_product.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="inicio_seccion.css">
+</head>
+<body>
+    <div class="window-controls">
+        <button><i class="fas fa-window-minimize"></i></button>
+        <button><i class="fas fa-window-maximize"></i></button>
+        <button><i class="fas fa-times"></i></button>
+    </div>
+    <div class="container">
+        <img src="imagen_inicio.png" alt="alt" class="avatar" width="67" height="39">
+        <h1>Iniciar Sesión</h1>
+        <form action="#" method="POST">
+            <div class="input-group">
+                <label for="email">CORREO ELECTRÓNICO</label>
+                <input type="email" id="email" name="email" value="">
+            </div>
+            <div class="input-group">
+                <label for="password">CONTRASEÑA</label>
+                <input type="password" id="password" name="password" value="">
+                <a href="recuperacion_contraseña.html" class="forgot-password">¿haz olvidado tu contraseña?</a>
+            </div>
+            <button type="submit">Iniciar sesión</button>
+        </form>
+        <div class="signup">
+            <p>¿No tienes cuenta? <a href="crear_cuenta.html">Crea una nueva aquí</a></p>
+        </div>
+    </div>
+</body>
+</html>

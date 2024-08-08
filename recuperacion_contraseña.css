@@ -1,0 +1,82 @@
+/* Apply gradient background to the body */
+body {
+    background: linear-gradient(to right, #FEF08A, #FBCFE8, #F9A8D4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Container styles */
+.container {
+    text-align: center;
+    width: 80%;
+}
+
+/* Title styles */
+.title {
+    color: black;
+    font-size: 2.5rem; /* 40px */
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+/* Form styles */
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label {
+    color: black;
+    font-size: 1rem; /* 16px */
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.input {
+    width: 60%;
+    padding: 0.5rem;
+    font-size: 1rem; /* 16px */
+    margin-bottom: 1.5rem;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1rem; /* 16px */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #333;
+}
+
+.back-button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    margin-top: 20px;
+}
+
+/* Top icons styles */
+.top-icons i {
+    color: black;
+    font-size: 1.2rem; /* 24px */
+    cursor: pointer;
+}
+
+.top-icons i:hover {
+    color: #333;
+}

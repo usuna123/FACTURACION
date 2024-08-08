@@ -1,0 +1,148 @@
+
+.profile-container {
+    display: flex;
+    align-items: right;
+    background-color: rgb(56, 19, 19);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(58, 41, 41, 0.1);
+    padding: 0px;
+    max-width: 600px;
+    width: 100%;
+    font-weight: 500; 
+}
+.profile-photo {
+    margin-right: 20px;
+    
+}
+.profile-photo img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    font-weight: 500;
+}
+.profile-info {
+    flex: 1;
+}
+.profile-info div {
+    margin-bottom: 10px;
+}
+
+
+.profile-info span {
+    display: block;
+    background-color: #991b41;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-weight: 700;
+}
+profile-info {
+    max-width: 800px; /* Ancho máximo del contenedor del perfil */
+    margin: 0 auto;
+    background-color: #74040400;
+    padding: 20px;
+    border: 1px solid #e7a9a9;
+    border-radius: 20px;
+    font-weight: 700; 
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column; 
+   left: 70;
+}
+.foto-placeholder {
+    width: 200px;
+    height: 200px;
+    border: 8px solid #000000;
+    border-radius: 50%;
+    display: flex;
+    align-items: first flex-end;
+    justify-content:  flex-end;
+    margin-bottom: 10px;
+    font-size: -64px;
+    
+}
+.profile-info{
+   
+    position: relative;
+top: 0x; left: 100px;
+
+}
+
+.foto{
+    position: relative;
+top: 0px; left: 180px;
+}
+.apellido{
+    word-break: break-word;
+  line-break: normal;
+  hyphens: auto;
+  overflow-wrap: break-word;
+    font-weight: 800;
+    border-radius: 20px;
+    position: relative;
+top: -230px; left: -180px;
+    
+}
+.NOMBRE{
+    font-weight: 800;
+    position: relative;
+top: -250px; left: -180px;
+}
+.cc{
+    word-break: break-word;
+  line-break: normal;
+  hyphens: auto;
+  overflow-wrap: break-word;
+    font-weight: 800;
+    position: static;
+    position: relative;
+top: -230px; left: -180px;
+    
+
+}
+.correo{
+    font-weight: 800;
+    position: static;
+    position: relative;
+top: -230px; left: -180px;
+word-break: break-word;
+  line-break: normal;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  
+}
+.contraseña{
+    word-break: break-word;
+  line-break: normal;
+  hyphens: auto;
+  overflow-wrap: break-word;
+    font-weight: 800;
+    position: relative;
+top: -230px; left: -180px;
+}
+.profile-photo {
+    
+    margin-left: 20px;
+}
+
+
+.foto-placeholder {
+    font-size: 150px;
+}
+
+.fotos {
+    position: relative;
+top: -250px; left: 210px;
+
+
+}
+.editar {
+    background-color: #490909;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+

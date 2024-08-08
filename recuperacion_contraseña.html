@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar Contraseña</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="recuperacion_contraseña.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="top-icons flex justify-end p-2 space-x-2">
+            <i class="fas fa-window-minimize"></i>
+            <i class="fas fa-window-maximize"></i>
+            <i class="fas fa-times"></i>
+        </div>
+        <h1 class="title">¿Has olvidado la contraseña?</h1>
+        <form class="form">
+            <label for="email" class="label">CORREO ELECTRONICO</label>
+            <input type="email" id="email" value="PolloFrito23@gmail.com" class="input">
+            <button type="submit" class="button">ENVIAR</button>
+            <button class="back-button" onclick="goBack()">VOLVER</button>
+        </form>
+    </div>
+
+</body>
+</html>
